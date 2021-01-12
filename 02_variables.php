@@ -20,24 +20,27 @@ $age = 28;
 $isMale = true; // 3. Change into false
 $height = 1.85;
 $salary = null;
+$age2 = 30;
 
 // 2. Print the variables. Explain what is concatenation
-echo $name . '<br>';
+echo $name . " " . $age . '<br>';
 echo $age . '<br>';
 echo $isMale . '<br>';
 echo $height . '<br>';
-echo $salary . '<br>';
+echo getType($age) . '<br>';
 
 // 4. Print types of the variables
 echo gettype($name) . '<br>';
 echo gettype($age) . '<br>';
 echo gettype($isMale) . '<br>';
 echo gettype($height) . '<br>';
-echo gettype($salary) . '<br>';
+echo var_dump($age) . '<br>';
 
 // 5. Print the whole variable
 var_dump($name, $age, $isMale, $height, $salary);
-
+echo is_string($name);
+echo is_string($name);
+echo is_string($name);
 // 6. Change the value of the variable
 $name = false;
 

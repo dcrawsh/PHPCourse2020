@@ -8,3 +8,7 @@ Multiline comment
 with some
 long text
 */
+
+// this is so com
+
+?>
