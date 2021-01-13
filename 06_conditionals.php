@@ -3,6 +3,14 @@
 $age = 20;
 $salary = 300000;
 
+if($age > $salary){
+    echo "You are rich" . "<br>";
+} elseif ($salary === 400000) {
+    echo "You are poor" . "<br>";
+} else {
+    echo "BROKE" . "<br>";
+}
+
 //// 1. if condition
 //if ($age < 22) {       // 1.1 Without curly braces { }
 //    echo 'You are young man!!<br>';
