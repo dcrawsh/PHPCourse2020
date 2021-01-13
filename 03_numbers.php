@@ -41,7 +41,13 @@ echo var_dump($number) . "<br>";
 // 10. Formatting numbers
 
 $number = 123456789.12345;
-echo number_format($number, 2, 'apples' , 'bananas');
+echo number_format($number, 2, 'apples' , 'bananas') . "<br>";
+
+echo rand(1,10) . "dicks" . "<br>";
+
+define("Greeting","Hello World");
+
+echo Greeting;
 
 // https://www.php.net/manual/en/ref.math.php
 
